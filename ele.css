@@ -1,0 +1,90 @@
+body{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.outer{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-image: url("https://www.techrounder.com/wp-content/uploads/2020/06/KSEB-Bill-issue.jpg");
+}
+.container{
+width: 400px;
+height: 600px;
+background-color: rgba(255, 248, 220, 0.672);
+ /* display: flex; */
+ flex-direction: column;
+/* align-items: center; */
+/* gap: 10px; */
+margin-top: 50px;
+text-shadow:5px 10px 10px grey;
+}
+.head{
+    text-align: center;
+}
+
+.butt{
+    width: 100px;
+    height: 40px;
+    background-color: aliceblue;
+    margin-left: 140px;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.stylee{
+    font-size: 20px;
+    /* display: flex; */
+    margin-left: 10px;
+}
+
+/* 
+#bill-amount{
+    width: 200px;
+    height: 50px; 
+    margin-left: 85px;
+} */
+/* .con-num{
+    margin-top: -1px;
+    margin-left: 10px;
+} */
+
+.imgs{
+    text-shadow:20x 10px 10px grey;
+    margin-top: 10px;
+}
+.data{
+    margin-top: -20px;
+    margin-left: 30px;
+    font-size: 20px;
+
+}
+.data-box{
+    display: flex;
+}
+
+#unita{
+    width: 100px;
+    height: 50px;
+    border-radius: 30px;
+    margin-left: 33px;
+    font-size: 20px;
+    text-align: center;
+    color: green;
+}
+
+.final{
+    display: flex;
+    font-size:25px;
+    gap: 40px;
+    margin-left: 10px;
+    color: red;
+}
+
+#reading{
+    font-size:25px;
+    color: red;
+}
